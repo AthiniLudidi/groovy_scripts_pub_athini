@@ -3,8 +3,9 @@ def call(){
     sh '''
         git version
         docker version
-        dotnet --list-sdks
-        dotnet --list-runtimes
+        // dotnet --list-sdks
+        // dotnet --list-runtimes
+        echo "it ran"
     '''
   }
 }
