@@ -9,3 +9,7 @@ def call(){
     '''
   }
 }
+
+def getVersionNumber(map config){
+
+}
